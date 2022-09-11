@@ -5,7 +5,7 @@
 }
 
 body {
-  margin: 100px 0;
+  margin-top: 100px;
 }
 
 h1,
@@ -33,7 +33,10 @@ p {
   border-radius: 4px;
   font-size: 18px;
   line-height: 1.5;
-  text-align: center;
+}
+
+.container {
+  margin-bottom: 100px;
 }
 
 .fixed-top {
@@ -107,5 +110,17 @@ p {
 }
 
 .contacts {
-  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 576px) {
+  p {
+    text-align: center;
+  }
+
+  .media-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
 }
